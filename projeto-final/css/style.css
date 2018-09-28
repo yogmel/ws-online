@@ -5,7 +5,6 @@
 }
 
 html {
-
     font-size: 10px; /* faz o reset do rem */
 }
 
@@ -27,7 +26,7 @@ h3 {
 }
 
 p {
-    font-size: 2.3rem;
+    font-size: 1.6rem;
 }
 
 a {
@@ -64,12 +63,16 @@ a {
     background-size: cover;
     height: 90vh;
     text-align: center;
-    padding-top: 30rem;
+    padding-top: 20rem;
     color: white;
 }
 
 .banner__titulo {
     font-size: 5rem;  
+}
+
+.banner__subtitulo {
+    font-size: 2.3rem;
 }
 
 /* SEÇÃO SOBRE */
@@ -86,10 +89,6 @@ a {
 
 .sobre-descricao__destaque, .sobre-habilidades__titulo {
     font-size: 2rem;
-}
-
-.sobre-descricao__texto {
-    font-size: 1.6rem;
 }
 
 .sobre-habilidades {
@@ -121,10 +120,6 @@ a {
     margin-bottom: .5rem;
 }
 
-.redes-sociais__username {
-    font-size: 1.8rem;
-}
-
 .footer__copy-texto {
     color: #c4c4c4;
     font-weight: lighter;
@@ -152,7 +147,7 @@ a {
     }
     .container {
         max-width: 960px;
-        padding: 4rem;
+        padding: 0 10rem;
     }
     .sobre-descricao, .sobre-habilidades {
         width: 100%;
@@ -166,5 +161,11 @@ a {
         max-width: 200px;
         padding: 2rem 0;
         margin: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0 5rem;
     }
 }
